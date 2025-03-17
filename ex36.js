@@ -17,7 +17,7 @@ process.stdin.on("data", function(valor){
 
     if (dia > 31)
     {
-        console.log("A dia é inválido");
+        console.log("O dia é inválido");
     }
 
     console.log("Digite uma data no formato: dd/mm/aaaa");

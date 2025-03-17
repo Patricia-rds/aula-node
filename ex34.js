@@ -15,6 +15,9 @@ let a = 5;
 let b = 10
 let c = 5
 let delta = b * b - (4 * a * c);
+let raiz = -b / (2 * a);
+let raiz1 = (-b + Math.sqrt(delta)) / (2 * a);
+let raiz2 = (-b - Math.sqrt(delta)) / (2 * a);
 
 if (a === 0)
 {
@@ -33,3 +36,9 @@ else
     console.log("A equação possui 2 raízes reais.")
 }
 
+    console.log("A equação possui 1 raiz real:", "x=", raiz);
+}
+else
+{
+    console.log("A equação possui 2 raízes reais:", "x1 =", raiz1, "e x2=", raiz2)
+}
